@@ -1,0 +1,112 @@
+body {
+    font-family: nunito;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f4f4f9;
+}
+
+header {
+    background-color: #6c7ae0;
+    color: white;
+    text-align: center;
+    padding: 5px 0;
+    font-size: 1.5em;
+}
+
+.profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #2d3e50;
+    padding: 30px;
+    color: white;
+}
+
+.profile-picture {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 5px solid #fff;
+    margin-bottom: 10px;
+}
+
+.profile-picture img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.name {
+    margin-top: 10px;
+    font-size: 1.5em;
+    font-weight: bold;
+    font-family: nunito;
+}
+
+.title {
+    font-size: 1em;
+    color: #d3d3d3;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+.left, .right {
+    background-color: #ebf0f8;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 48%;
+
+}
+
+.left img, .right img {
+    max-width: 100%; 
+    height: auto;    
+    border: 2px solid #ccc; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.left h2, .right h2 {
+    border-bottom: 2px solid #9ca4db;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    font-family: nunito;
+}
+
+.right p {
+    margin: 10px 0;
+}
+
+.left p {
+    text-align: justify;
+}
+
+
+footer {
+    background-color: #2d3e50;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.social-links a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+    font-size: 1.5em;
+}
+
+.social-links i {
+    margin-right: 5px;
+}
